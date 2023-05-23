@@ -1,0 +1,147 @@
+
+
+  .big-boss {
+    font: normal normal 300 26px/34px Montserrat;
+    font-size: 100;
+    background: linear-gradient(17deg, #360C07 0%, #210C07 100%);
+    overflow-x: hidden;
+  }
+
+  .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first{
+    margin-bottom: 300px;
+  }
+
+  .home-title{
+    margin: 140px 0px 50px 0px;
+    text-align: center;
+    font: normal normal normal 3rem Montserrat;
+    color: #A69076;
+  }
+
+  .seta{
+    margin-bottom: 50px;
+    height: 30px;
+    width: auto;
+  }
+
+  .who{
+    margin: 0px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .what-is-image{
+    height: 703px;
+    width: auto;
+    border-radius: 82px;
+  }
+
+  .what-is-title{
+    font: 700 4rem Montserrat;
+    color: #A69076;
+    margin-bottom: 20px;
+  }
+
+  .what-is-txt{
+    font: 300 1,6rem Montserrat;
+    color: #A69076;
+  }
+
+  .servics-title{
+    text-align: center;
+    font: 700 4rem Montserrat;
+    color: #A69076;
+  }
+
+  .services-list{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 160px
+  }
+
+  .collum button{
+    background: none;
+    border: none;
+  }
+  
+  .collum{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 300px;
+  }
+  
+  .service-buttom{
+    color: #A69076;
+    text-align: center;
+    font: 300 2rem/2rem Montserrat;
+  }
+  
+  .orçamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-pack{
+    width: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .form-pack input{
+    width: 140px;
+  }
+  
+  .form-imput{
+    width: 500px;
+    color: #A69076;
+    font: 300 1rem/2rem Montserrat;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 55px;
+    padding: 10px;
+  }
+  
+  .select{
+    padding: 18px;
+    width: 300px;
+  }
+  
+  .description{
+    height: 80px;
+    border-radius: 32px;
+    text-align: center
+  }
+  
+  .btn{
+    margin: auto;
+    width: 50%;
+    background: #A69076;
+    border: 1px #707070;
+    border-radius: 52px;
+    text-align: center;
+    font: normal normal bold 1.5rem/2rem Montserrat;
+    padding: 8px;
+    color: #FFFFFF;
+  }
+  

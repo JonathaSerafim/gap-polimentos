@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    align-items: center;
+  }
+  
+  .number{
+    margin: 80px auto 80px auto;
+    background: none;
+    border: none;
+    text-align: left;
+    font: 300 1.4rem/2rem Montserrat;
+  }
+  
+  .number a{
+    color: #A69076;
+    text-align: center;
+  }

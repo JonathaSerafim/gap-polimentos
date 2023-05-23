@@ -1,0 +1,28 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .gap-logo {
+    height: 48px;
+    width: auto;
+  }
+
+  .head-menu{
+    display: flex;
+    gap: 40px;
+  }
+
+  .head-menu button{
+    background: none;
+    border: none;
+  }
+
+  .menu-item{
+    color: #A69076;
+    text-align: left;
+    font: 300 1.4rem/2rem Montserrat;
+  }
