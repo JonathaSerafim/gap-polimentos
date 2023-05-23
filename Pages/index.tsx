@@ -1,6 +1,6 @@
 import React from "react";
 import type { NextPage } from "next";
-import HomeComponent from "../Components/Home"
+import HomeComponent from "../components/Home"
 
 function Home () {
     return(
