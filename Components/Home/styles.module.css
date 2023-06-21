@@ -1,6 +1,11 @@
 
 
   .big-boss {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     font: normal normal 300 26px/34px Montserrat;
     font-size: 100;
     background: linear-gradient(17deg, #360C07 0%, #210C07 100%);

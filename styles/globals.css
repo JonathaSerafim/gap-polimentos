@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  html,
+  body,
+  #__next {
+    height: auto;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  #__next {
+    background: linear-gradient(267deg, #360C07 0%, #210C07 100%) 0% 0% no-repeat
+      padding-box;
+  }
+  
+  .content {
+    min-height: 100vh;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .openNav:checked ~ label > .area > svg > line:nth-child(1) {
+      animation-name: topLine;
+      animation-duration: 0.6s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: forwards;
+    }
+    .openNav:checked ~ label > .area > svg > line:nth-child(2) {
+      animation-name: middleLine;
+      animation-duration: 0.6s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: forwards;
+    }
+    .openNav:checked ~ label > .area > svg > line:nth-child(3) {
+      animation-name: bottomLine;
+      animation-duration: 0.6s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: forwards;
+    }
+  
+    .openNav:not(:checked) ~ label > .area > svg > line:nth-child(1) {
+      animation-direction: reverse;
+    }
+    .openNav:not(:checked) ~ label > .area > svg > line:nth-child(2) {
+      animation-direction: reverse;
+    }
+    .openNav:not(:checked) ~ label > .area > svg > line:nth-child(3) {
+      animation-direction: reverse;
+    }
+  }
+  
+  @keyframes middleLine {
+    0% {
+      transform: scaleX(1);
+      transform-origin: center;
+    }
+    100% {
+      transform: scaleX(0);
+      transform-origin: center;
+    }
+  }
+  
+  @keyframes topLine {
+    0% {
+      transform: rotate(0deg) translateY(0%);
+      transform-origin: 50% 50%;
+    }
+    100% {
+      transform: rotate(45deg) translateY(45%);
+      transform-origin: 50% 50%;
+    }
+  }
+  
+  @keyframes bottomLine {
+    0% {
+      transform: rotate(0deg) translateY(0%);
+      transform-origin: 50% 50%;
+    }
+    100% {
+      transform: rotate(-45deg) translateY(-45%);
+      transform-origin: 50% 50%;
+    }
+  }
