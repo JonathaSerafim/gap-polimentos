@@ -3,13 +3,10 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 import GapTeam from "../../public/anderson-pastor.jpg";
 import Seta from "../../public/Assetona.png";
-import HeaderComponent from "../Header/index";
-import FooterComponent from "../Footer/index";
 import classNames from "classnames";
 
 const HomeComponent = () => (
 <section className={styles["big-boss"]}>
-    <HeaderComponent></HeaderComponent>
     <section className={ classNames(styles["section"], styles["first"])}>
         <h1 className={styles["home-title"]}>O brilho que sua casa Merece</h1>
         <a href="#about"> <Image src={Seta} alt="setinha" className={styles["Seta"]}></Image> </a>
